@@ -9,10 +9,76 @@
     tools:context=".MonthBillsActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="MONTHLY BILLS">
+        android:layout_gravity="center"
+        android:text="MONTHLY BILLS"
+        android:textSize="25sp"
+        android:textAlignment="center">
 
     </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="1/01/2023 - 1/31/2023"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp">
+
+    </TextView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD MONTHLY BILL"
+        android:textSize="25sp"
+        android:layout_marginTop="50dp">
+
+    </Button>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:background="@color/LTGray"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Car Payment"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textAlignment="center">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Amount: $200"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:textAlignment="center">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Due: 1/27/2023"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textAlignment="center">
+
+        </TextView>
+
+    </LinearLayout>
 
 </LinearLayout>

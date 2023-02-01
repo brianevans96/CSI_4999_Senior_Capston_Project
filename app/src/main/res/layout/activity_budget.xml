@@ -6,13 +6,78 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MonthBillsActivity">
+    tools:context=".BudgetActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="BUDGET">
+        android:layout_gravity="center"
+        android:text="BUDGET"
+        android:textSize="25sp"
+        android:textAlignment="center">
 
     </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="1/01/2023 - 1/31/2023"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="CURRENT BUDGET"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="$1000"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EDIT"
+            android:textSize="25sp"
+            android:layout_marginTop="50dp"
+            android:layout_weight="1">
+
+        </Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADD"
+            android:textSize="25sp"
+            android:layout_marginTop="50dp"
+            android:layout_weight="1">
+
+        </Button>
+
+    </LinearLayout>
+
+
 
 </LinearLayout>
